@@ -1,0 +1,10 @@
+div {
+    margin: 80px auto;
+}
+.round-corners {
+border-radius: 25px;
+border: 2px solid #609;
+padding: 20px; 
+width: 200px;
+height: 15px; 
+}
