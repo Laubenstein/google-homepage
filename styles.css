@@ -1,5 +1,5 @@
 div {
-    margin: 80px auto;
+    margin: 100px auto;
 }
 .round-corners {
 outline: none;
@@ -8,7 +8,7 @@ border-color: rgb(220, 220, 220);
 border-radius: 20px;
 border-style: solid;
 border-width: 1px;
-padding: 2px;
+padding-left: 20px;
 width: 500px;
 height: 35px; 
 
@@ -19,7 +19,14 @@ height: 35px;
 .round-corners:focus {
     box-shadow: 0px 0px 7px rgb(220, 220, 220);
 }
-button {
+
+.buttons:hover {
+    color: black;
+    border: 1px solid #c6c6c6;
+    cursor: pointer;
+    
+}
+.buttons {
     -webkit-border-radius: 5;
     -moz-border-radius: 5;
     border-radius: 5px;
@@ -27,11 +34,8 @@ button {
     font-size: 15px;
     background: #dfdfdf73;
     padding: 10px 10px 10px 10px;
-    text-decoration: none;
+    border-color: white;
+    box-shadow: white;
+    outline-color: white;
     border: none;
-}
-button:hover {
-    color: black;
-    border: 1px 1px;
-    border-color: #4e4e4e;
 }
