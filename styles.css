@@ -1,5 +1,72 @@
-div {
-    margin: 100px auto;
+html {
+    font-family: Arial, sans-serif;
+    font-size: small;
+}
+.header {
+   
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    display: flex;
+}
+#header {
+    display: flex;
+    height: auto;
+}
+.hleft {
+    display: flex;
+    margin-right: auto;
+    
+}
+
+li a {
+    padding: 10px;
+    color: #464646;
+    text-decoration: none;
+}
+li a:hover {
+    text-decoration: underline;
+}
+
+.hright {
+    display: flex;
+    margin-right: 5px;
+}
+.footer {
+    margin-top: auto;
+    background: #dfdfdf73;
+    border-top: solid 0.2px #aaaaaa73;
+    border-bottom: solid 0.2px #aaaaaa73;
+    height: 40px;
+}
+.li-footer {
+    display: flex;
+    
+}
+
+.business {
+    margin-right: auto;
+}
+.signin {
+    -webkit-border-radius: 3;
+    -moz-border-radius: 3;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 800;
+    background: #2c80ff;
+    padding: 0px 15px 0px 15px;
+    border-color: white;
+    box-shadow: white;
+    outline-color: white;
+    border: none;
+}
+.center {
+    margin: 170px auto;
 }
 .round-corners {
 outline: none;
